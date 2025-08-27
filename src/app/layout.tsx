@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const interSans = Inter({
   variable: "--font-inter",
@@ -27,7 +29,9 @@ export default function RootLayout({
       <body
         className={`${interSans.variable} ${robotoMono.variable} font-sans antialiased bg-background text-foreground`}
       >
+        <Navbar/>
         {children}
+        <Footer />
       </body>
     </html>
   );
