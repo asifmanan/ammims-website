@@ -12,9 +12,9 @@ export default function HomePage() {
       
       <CoursesPreview />
       <WhyChooseUs />
-      <AdmissionsCallout />
       <AboutPreview />
       <ContactPreview />
+      <AdmissionsCallout />
       
       {/* later: About, Courses preview, etc. */}
     </>
