@@ -1,4 +1,5 @@
 import Link from "next/link";
+import contactData from "@/assets/data/contact/contactData";
 
 export default function Footer() {
   return (
@@ -52,9 +53,9 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-3">Contact Us</h4>
           <ul className="space-y-2 text-sm text-snow/80">
-            <li>📍 Near Shaheed Baba Masjid, Caravan Road, Mardan, Pakistan</li>
-            <li>📞 +92 300 1234567</li>
-            <li>✉️ info@ammims.edu.pk</li>
+            <li>📍 {contactData.address}</li>
+            <li>📞 {contactData.phone}</li>
+            <li>✉️ {contactData.email}</li>
           </ul>
         </div>
       </div>
