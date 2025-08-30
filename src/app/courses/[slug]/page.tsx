@@ -1,7 +1,7 @@
+// src/app/courses/[slug]/page.tsx
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import coursesDataJson from "@/assets/data/courses/coursesData.json"
-import { Course } from "@/types/course";
+import coursesData from "@/assets/data/courses/coursesData"
 
 export default async function CourseDetailPage({
   params,
@@ -9,8 +9,7 @@ export default async function CourseDetailPage({
   params: Promise<{ slug: string }>;
 }) {  
   const {slug} = await params;
-  const coursesData: Record<string, Course> = coursesDataJson;
-  const course = coursesData[slug as keyof typeof coursesData];
+  const course = coursesData[slug];
 
   if (!course) {
     notFound();
