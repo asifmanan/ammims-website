@@ -1,7 +1,7 @@
 // src/app/courses/[slug]/page.tsx
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import coursesData from "@/assets/data/courses/coursesData"
+import {coursesData} from "@/assets/data/courses/coursesData"
 
 export default async function CourseDetailPage({
   params,

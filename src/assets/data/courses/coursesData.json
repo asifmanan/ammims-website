@@ -1,7 +1,9 @@
 {
   "health-technology": {
     "name": "Health Technology",
+    "slug": "health-technology",
     "description": "This program equips students with foundational skills in health sciences, preparing them to support healthcare teams across various medical fields.",
+    "highlight": "Gain expertise in diagnostic procedures, patient care, and healthcare technology essentials.",
     "duration": "2 Years",
     "overview": [
       "The Diploma in Health Technology provides students with a broad-based foundation in health sciences. Students will be introduced to essential subjects such as anatomy, physiology, microbiology, and community health. The course emphasizes both theoretical knowledge and practical training, ensuring that graduates are capable of assisting medical professionals in hospitals, clinics, and laboratories.",
@@ -13,8 +15,9 @@
   },
   "radiology-technology": {
     "name": "Radiology Technology",
-    "description":
-      "Focused on imaging techniques such as X-rays, CT scans, and MRIs, this course trains students in diagnostic imaging procedures.",
+    "slug": "radiology-technology",
+    "description": "Focused on imaging techniques such as X-rays, CT scans, and MRIs, this course trains students in diagnostic imaging procedures.",
+    "highlight": "Learn X-ray, CT, MRI, and ultrasound imaging techniques with hands-on clinical training.",
     "overview": [
       "Radiology Technology focuses on diagnostic imaging, including X-rays, CT scans, and MRIs. Students learn how to operate imaging equipment, prepare patients for procedures, and ensure safety during radiological exams.",
       "The course emphasizes radiation safety, anatomy, image interpretation basics, and patient communication. Graduates are trained to work alongside radiologists and physicians in hospitals, diagnostic centers, and imaging labs."
@@ -26,8 +29,9 @@
   },
   "surgical-technology": {
     "name": "Surgical Technology",
-    "description":
-      "This program prepares students to assist surgeons during operations by maintaining sterile environments and managing surgical instruments.",
+    "slug": "surgical-technology",
+    "description": "This program prepares students to assist surgeons during operations by maintaining sterile environments and managing surgical instruments.",
+    "highlight": "Assist in surgical procedures with skills in sterilization, instruments, and operating room protocols.",
     "overview": [
       "The Diploma in Surgical Technology prepares students to assist surgeons in the operating room. Training includes sterilization techniques, surgical instrument handling, and operation theatre management.",        
       "Students will gain in-depth knowledge of pre-operative, intra-operative, and post-operative procedures. The program also emphasizes patient safety and sterile practices, ensuring that graduates can play a critical role in successful surgical outcomes."
@@ -38,8 +42,9 @@
   },
   "dental-technology": {
     "name": "Dental Technology",
-    "description":
-      "A specialized course focusing on dental procedures, oral healthcare, and supporting dentists in clinical environments.",
+    "slug": "dental-technology",
+    "description": "A specialized course focusing on dental procedures, oral healthcare, and supporting dentists in clinical environments.",
+    "highlight": "Learn techniques in dental equipment, oral health care, and lab-based dental solutions.",
     "overview": [
       "Dental Technology equips students with the knowledge and skills to support dentists in both clinical and laboratory settings. The course covers oral anatomy, preventive dentistry, dental materials, and dental lab practices.",
       "Students will gain practical experience in dental impressions, prosthetic preparation, and chairside assisting. This program is designed for those interested in contributing to oral healthcare and improving community dental health standards."
@@ -50,8 +55,9 @@
   },
   "hepatology-technology": {
     "name": "Hepatology Technology",
-    "description":
-      "Students learn to assist in the diagnosis and management of liver-related diseases, with training in lab testing and patient support.",
+    "slug": "hepatology-technology",
+    "description": "Students learn to assist in the diagnosis and management of liver-related diseases, with training in lab testing and patient support.",
+    "highlight": "Specialize in liver health, diagnostics, and treatment support for hepatology-focused care.",
     "overview": [
       "Hepatology Technology is a specialized program focusing on the study, diagnosis, and management of liver diseases. Students learn about liver anatomy, common liver disorders, laboratory testing, and patient support systems.",
       "This course trains healthcare technologists to assist hepatologists in clinical environments, perform diagnostic procedures, and manage liver health awareness programs, an essential field given the rising prevalence of liver conditions."
@@ -62,8 +68,9 @@
   },
   "cariology-technology": {
     "name": "Cariology Technology",
-    "description":
-      "This program focuses on the study, diagnosis, and prevention of dental caries, blending dental science with modern techniques.",
+    "slug": "cardiology-technology",
+    "description": "This program focuses on the study, diagnosis, and prevention of dental caries, blending dental science with modern techniques.",
+    "highlight": "Develop skills in cardiac care, ECG, echocardiography, and cardiovascular diagnostics.",
     "overview": [
       "Cariology Technology focuses on the prevention, diagnosis, and management of dental caries (tooth decay). Students study oral microbiology, cariology techniques, preventive dentistry, and restorative procedures.",
       "The program is designed to train professionals who can work closely with dentists, promoting better oral hygiene and supporting treatment procedures aimed at preventing cavities and preserving natural teeth."
@@ -74,8 +81,9 @@
   },
   "anesthesiology-technology": {
     "name": "Anesthesiology Technology",
-    "description":
-      "Students are trained to assist anesthesiologists in preparing and administering anesthesia during surgeries and medical procedures.",
+    "slug": "anesthesiology-technology",
+    "description": "Students are trained to assist anesthesiologists in preparing and administering anesthesia during surgeries and medical procedures.",
+    "highlight": "Train in anesthesia preparation, patient monitoring, and perioperative care.",
     "overview": [
       "Anesthesiology Technology trains students to assist anesthesiologists and surgeons during medical and surgical procedures. The curriculum covers anesthesia administration techniques, monitoring patient vitals, and managing anesthesia equipment.",
       "Graduates will be capable of preparing operating theatres, assisting with anesthesia delivery, and ensuring patient safety throughout surgeries, making them vital members of surgical and emergency care teams."
