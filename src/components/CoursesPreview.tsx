@@ -1,31 +1,23 @@
 import Link from "next/link";
+import {coursesDataArray} from "@/assets/data/courses/coursesData";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card";
 
-const courses = [
-  {
-    name: "Medical Laboratory Technology",
-    description:
-      "Gain expertise in diagnostic testing, lab equipment, and clinical analysis to support patient care.",
-    href: "/courses",
-  },
-  {
-    name: "Radiology & Imaging Technology",
-    description:
-      "Learn X-ray, CT, MRI, and ultrasound imaging techniques with hands-on training.",
-    href: "/courses",
-  },
-  {
-    name: "Physiotherapy Technology",
-    description:
-      "Develop rehabilitation skills to help patients recover mobility and improve quality of life.",
-    href: "/courses",
-  },
-  {
-    name: "Emergency & Trauma Care",
-    description:
-      "Train to respond effectively in critical emergency situations and pre-hospital care.",
-    href: "/courses",
-  },
-];
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+
+
 
 export default function CoursesPreview() {
   return (
@@ -40,24 +32,38 @@ export default function CoursesPreview() {
           the skills and knowledge needed for successful healthcare careers.
         </p>
 
-        <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {courses.map((course) => (
-            <div
-              key={course.name}
-              className="rounded-2xl bg-snow p-6 shadow-md hover:shadow-lg transition"
-            >
-              <h3 className="text-xl font-semibold text-brand-primary">
-                {course.name}
-              </h3>
-              <p className="mt-2 text-jet/80 text-sm">{course.description}</p>
-              <Link
-                href={course.href}
-                className="mt-4 inline-block text-sm font-medium text-raspberry hover:text-raspberry/80 transition"
-              >
-                Learn more →
-              </Link>
-            </div>
-          ))}
+        <div className="mt-10 max-w-6xl mx-auto px-10 sm:px-6 lg:px-8">
+          <Carousel className="w-full">
+            <CarouselContent>
+              {coursesDataArray.map((course) => (
+                <CarouselItem key={course.slug} className="md:basis-1/2 lg:basis-1/3 flex">
+                <Card
+                  key={course.slug}
+                  className="bg-snow hover:shadow-lg transition flex flex-col h-full"
+                >
+                  <CardHeader>
+                    <CardTitle>
+                      <h3 className="text-brand-primary text-xl">{course.name}</h3>
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="flex-1">
+                    <p className="text-jet/80 text-sm">
+                      {course.highlight}
+                    </p>
+                  </CardContent>
+                  <CardFooter>
+                    <Link className="inline-block text-sm font-medium text-raspberry hover:text-raspberry/80 transition"
+                      href={`/courses/${course.slug}`}>
+                      Learn more →
+                    </Link>
+                  </CardFooter>
+                </Card>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
         </div>
 
         <div className="mt-12 text-center">
