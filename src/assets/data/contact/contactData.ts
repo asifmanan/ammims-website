@@ -1,7 +1,7 @@
 // src/assets/data/contactData.ts (wrapper file around JSON)
-import { ContactData } from "@/types/contact";
+import { ContactData, ContactInfo } from "@/types/contact";
 import rawContactData from "@/assets/data/contact/contactData.json";
+import rawContactInfo from "@/assets/data/contact/contactInfo.json";
 
-const contactData: ContactData = rawContactData;
-
-export default contactData;
+export const contactData: ContactData = rawContactData;
+export const contactInfo: ContactInfo = rawContactInfo;
