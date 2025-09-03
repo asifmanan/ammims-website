@@ -1,4 +1,5 @@
 // src/types/course.ts
+import { Banner } from "./Banner";
 export interface Course {
   name: string;
   slug: string;
@@ -11,3 +12,7 @@ export interface Course {
 }
 
 export type OfferedCourses = Record<string, Course>;
+
+export interface CoursesData {
+  banner: Banner;
+}
