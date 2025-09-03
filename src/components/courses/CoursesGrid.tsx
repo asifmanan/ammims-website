@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { coursesDataArray } from "@/assets/data/courses/coursesData";
+import { offeredCoursesArray } from "@/assets/data/courses/coursesData";
 import { 
   Card, 
   CardHeader, 
@@ -8,7 +8,7 @@ import {
   CardFooter 
 } from "@/components/ui/card";
 
-const courses = coursesDataArray;
+const courses = offeredCoursesArray;
 
 export default function CoursesGrid() {
   return (

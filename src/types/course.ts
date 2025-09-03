@@ -10,4 +10,4 @@ export interface Course {
   career: string;
 }
 
-export type CoursesData = Record<string, Course>;
+export type OfferedCourses = Record<string, Course>;

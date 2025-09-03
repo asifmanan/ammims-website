@@ -1,10 +1,9 @@
 import Link from "next/link";
-import {coursesDataArray} from "@/assets/data/courses/coursesData";
+import {offeredCoursesArray} from "@/assets/data/courses/coursesData";
 import {
   Card,
   CardHeader,
   CardTitle,
-  CardDescription,
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
@@ -35,7 +34,7 @@ export default function CoursesPreview() {
         <div className="mt-10 max-w-6xl mx-auto px-10 sm:px-6 lg:px-8">
           <Carousel className="w-full">
             <CarouselContent>
-              {coursesDataArray.map((course) => (
+              {offeredCoursesArray.map((course) => (
                 <CarouselItem key={course.slug} className="md:basis-1/2 lg:basis-1/3 flex">
                 <Card
                   key={course.slug}
