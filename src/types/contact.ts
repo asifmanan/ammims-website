@@ -1,8 +1,5 @@
 // src/types/contact.ts
-interface DefaultDataSection {
-  title: string;
-  description: string;
-}
+import { DefaultSectionData, DefaultPreviewData } from "@/types/SectionData";
 
 interface messageDetail {
   title: string;
@@ -11,9 +8,10 @@ interface messageDetail {
 }
 
 export interface ContactData {
-  banner: DefaultDataSection;
+  preview: DefaultPreviewData;
+  banner: DefaultSectionData;
   messageDetail: messageDetail;
-  contactDetail: DefaultDataSection;
+  contactDetail: DefaultSectionData;
 }
 
 export interface ContactInfo {

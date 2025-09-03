@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "titleSegments": [
+      {
+        "text": "Abdul Manan Memorial Institute of",
+        "isHighlighted": false
+      },
+      {
+        "text": "Medical Sciences",
+        "isHighlighted": true
+      }
+    ],
+    "description": "Empowering future healthcare professionals through excellence in paramedical education."
+  }
+}

@@ -1,5 +1,5 @@
-// src/types/course.ts
-import { Banner } from "./Banner";
+// src/types/Course.ts
+import { DefaultSectionData, DefaultPreviewData } from "@/types/SectionData";
 export interface Course {
   name: string;
   slug: string;
@@ -14,5 +14,6 @@ export interface Course {
 export type OfferedCourses = Record<string, Course>;
 
 export interface CoursesData {
-  banner: Banner;
+  preview: DefaultPreviewData;
+  banner: DefaultSectionData;
 }

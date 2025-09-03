@@ -1,12 +1,20 @@
 {
+  "preview": {
+    "title": "Get in Touch",
+    "description": "Have questions? We’d love to hear from you."
+
+  },
+
   "banner": {
     "title": "Contact Us",
     "description": "We’d love to hear from you. Please reach out with any questions or inquiries."
   },
+
   "messageDetail": {
     "title": "Send us a message",
     "cardTitle": "Message"
   },
+
   "contactDetail": {
     "title": "Get in touch",
     "description": "Abdul Manan Memorial Institute of Medical Sciences is committed to providing quality paramedical education. Reach us through the following channels:"

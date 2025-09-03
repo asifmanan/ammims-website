@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {offeredCoursesArray} from "@/assets/data/courses/coursesData";
+import { DefaultPreviewData } from "@/types/SectionData";
 import {
   Card,
   CardHeader,
@@ -16,19 +17,22 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
+interface CoursesPreviewProps {
+  data: DefaultPreviewData
+}
 
 
-export default function CoursesPreview() {
+
+export default function CoursesPreview({data}: CoursesPreviewProps) {
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-jet">
-          Our Programs
+          {data.title}
         </h2>
 
         <p className="mt-4 text-lg text-jet/80 text-center max-w-2xl mx-auto">
-          Explore a range of paramedical courses designed to equip students with
-          the skills and knowledge needed for successful healthcare careers.
+          {data.description}
         </p>
 
         <div className="mt-10 max-w-6xl mx-auto px-10 sm:px-6 lg:px-8">

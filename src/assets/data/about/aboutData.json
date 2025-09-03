@@ -1,4 +1,13 @@
 {
+  "preview": {
+    "title":"About Our Institute",
+    "description": "At Abdul Manan Memorial Institute of Medical Sciences, we are dedicated to shaping the next generation of healthcare professionals. Our paramedical programs combine academic excellence with practical training, empowering students to make a real difference in the world of healthcare."
+  },
+
+  "whyChoosePreview" : {
+    "title": "Why Study at AMMIMS?"
+  },
+
   "banner": {
     "title": "About Us",
     "description":"Abdul Manan Memorial Institute of Medical Sciences (AMMIMS) is dedicated to shaping the next generation of healthcare professionals through excellence in paramedical education."

@@ -1,4 +1,9 @@
-export default function WhyChooseUs() {
+import { DefaultPreviewData } from "@/types/SectionData";
+interface WhyChooseUsProps {
+  data: DefaultPreviewData;
+}
+
+export default function WhyChooseUs({data}: WhyChooseUsProps) {
   const features = [
     {
       title: "Experienced Faculty",
@@ -30,7 +35,7 @@ export default function WhyChooseUs() {
     <section className="bg-snow py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-jet">
-          Why Study at AMMIMS?
+          {data.title}
         </h2>
 
         <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

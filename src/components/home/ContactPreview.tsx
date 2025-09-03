@@ -1,20 +1,25 @@
 import Link from "next/link";
+import { ContactPreviewData } from "@/types/Home";
 
-export default function ContactPreview() {
+interface ContactPreviewProps {
+  data: ContactPreviewData;
+}
+
+export default function ContactPreview({data}:ContactPreviewProps) {
   return (
     <section className="bg-snow py-16 text-center">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl sm:text-4xl font-bold text-jet">
-          Get in Touch
+          {data.preview.title}
         </h2>
         <p className="mt-4 text-lg text-jet/80">
-          Have questions? We’d love to hear from you.
+          {data.preview.description}
         </p>
 
         <div className="mt-6 space-y-2 text-jet/80">
-          <p>📍 Near Shaheed Baba Masjid, Caravan Road, Mardan, Pakistan</p>
-          <p>📞 +92 300 1234567</p>
-          <p>✉️ info@ammims.edu.pk</p>
+          <p>📍 {data.contactInfo?.address}</p>
+          <p>📞 {data.contactInfo?.phone}</p>
+          <p>✉️ {data.contactInfo?.email}</p>
         </div>
 
         <div className="mt-8">

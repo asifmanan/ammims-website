@@ -1,19 +1,25 @@
 import Link from "next/link";
+import { HeroData } from "@/types/Home";
 
-export default function Hero() {
+interface HeroProps {
+  data: HeroData;
+}
+export default function Hero({data}: HeroProps) {
   return (
     <section className="relative isolate bg-gradient-to-br from-brand-primary/10 via-snow to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
         {/* Institute Name */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-jet">
-          Abdul Manan Memorial Institute of
-          <span className="block text-brand-primary">Medical Sciences</span>
+          {data.titleSegments.map((segment, index) => (
+            <span 
+              key={index}
+              className={segment.isHighlighted ? "block text-brand-primary" : ""}>{segment.text}</span>
+          ))}
         </h1>
 
         {/* Tagline */}
         <p className="mt-6 text-lg sm:text-xl text-jet/80 max-w-2xl mx-auto">
-          Empowering future healthcare professionals through excellence in
-          paramedical education.
+          {data.description}
         </p>
 
         {/* Call to Action */}

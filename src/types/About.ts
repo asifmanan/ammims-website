@@ -1,3 +1,5 @@
+// src/types/About.ts
+import { DefaultSectionData, DefaultPreviewData } from "@/types/SectionData";
 import { CardData } from "@/types/CardData";
 
 export interface WhyChooseSection {
@@ -7,20 +9,10 @@ export interface WhyChooseSection {
 }
 
 export interface AboutData {
-  banner: {
-    title: string;
-    description: string
-  };
-  
-  mission: {
-    title: string;
-    description: string;
-  };
-
-  vision: {
-    title: string;
-    description: string;
-  };
-
+  preview: DefaultPreviewData;
+  whyChoosePreview: DefaultPreviewData;
+  banner: DefaultSectionData;
+  mission: DefaultSectionData;
+  vision: DefaultSectionData;
   whyChoose: WhyChooseSection;
 } 
