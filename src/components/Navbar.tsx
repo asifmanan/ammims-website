@@ -3,14 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-
-const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/courses", label: "Courses" },
-  { href: "/admissions", label: "Admissions" },
-  { href: "/contact", label: "Contact" },
-];
+import { navLinks } from "@/assets/data/nav/navLinks";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
