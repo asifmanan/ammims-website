@@ -25,7 +25,7 @@ export default function FAQ({data}: FaqSectionDataProps) {
 
         <div className="mt-10">
           {data.questions.map((item) => (
-            <Accordion type="single" collapsible className="w-full">
+            <Accordion type="single" key={item.question} collapsible className="w-full">
               <AccordionItem value="q1">
                 <AccordionTrigger>
                   {item.question}
