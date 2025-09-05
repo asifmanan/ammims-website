@@ -20,7 +20,7 @@ export interface HomeData {
 }
 
 // Hero section
-export interface TitleSegment {
+interface TitleSegment {
   text: string;
   isHighlighted: boolean;
 }
