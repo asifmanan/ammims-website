@@ -37,6 +37,14 @@ export default function Hero({data}: HeroProps) {
             Apply Now
           </Link>
         </div>
+        <div className="pt-4">
+          <p className="text-sm text-jet/80">
+            Already know your program?{" "}
+          <Link href="/apply" className="text-raspberry font-semibold hover:text-raspberry/80">
+            Go straight to the form →
+          </Link>
+        </p>
+        </div>
       </div>
 
       {/* Decorative Transparency Overlay */}
