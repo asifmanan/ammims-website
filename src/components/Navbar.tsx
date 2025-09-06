@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { navLinks } from "@/assets/data/nav/navLinks";
+import Image from "next/image";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -12,9 +13,15 @@ export default function Navbar() {
     <nav className="bg-snow shadow-md sticky top-0 z-50 text-jet">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo / Institute Name */}
-          <Link href="/" className="text-xl font-bold text-brand-primary">
-            AMMIMS
+          {/* Logo */}
+          <Link href="/">
+            <Image
+              src="/logo_ammims_192x192.svg"
+              alt="Abdul Manan Memorial Institute of Medical Sciences"
+              width={24} 
+              height={24} 
+              className="h-8 w-auto sm:h-10"
+            />
           </Link>
 
           {/* Desktop Nav */}
