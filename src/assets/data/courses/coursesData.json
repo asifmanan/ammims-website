@@ -1,87 +1,11 @@
 {
-  "health-technology": {
-    "name": "Health Technology",
-    "description": "This program equips students with foundational skills in health sciences, preparing them to support healthcare teams across various medical fields.",
-    "duration": "2 Years",
-    "overview": [
-      "The Diploma in Health Technology provides students with a broad-based foundation in health sciences. Students will be introduced to essential subjects such as anatomy, physiology, microbiology, and community health. The course emphasizes both theoretical knowledge and practical training, ensuring that graduates are capable of assisting medical professionals in hospitals, clinics, and laboratories.",
-      "By the end of the program, students will have gained hands-on experience in basic medical procedures and health management systems, preparing them for further specialization or immediate employment in healthcare settings."
-    ],
-    "eligibility": "Matriculation with Science (Biology preferred)",
-    "career":
-      "Healthcare assistant, medical lab support, and entry-level health technician roles."
+  "preview": {
+    "title": "Our Programs",
+    "description": "Explore accredited programs designed to equip student with the skills and knowledge needed for a successful career in healthcare."
   },
-  "radiology-technology": {
-    "name": "Radiology Technology",
-    "description":
-      "Focused on imaging techniques such as X-rays, CT scans, and MRIs, this course trains students in diagnostic imaging procedures.",
-    "overview": [
-      "Radiology Technology focuses on diagnostic imaging, including X-rays, CT scans, and MRIs. Students learn how to operate imaging equipment, prepare patients for procedures, and ensure safety during radiological exams.",
-      "The course emphasizes radiation safety, anatomy, image interpretation basics, and patient communication. Graduates are trained to work alongside radiologists and physicians in hospitals, diagnostic centers, and imaging labs."
-    ],
-    "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology & Physics preferred)",
-    "career":
-      "Radiology technician, imaging assistant, hospital radiology department support."
-  },
-  "surgical-technology": {
-    "name": "Surgical Technology",
-    "description":
-      "This program prepares students to assist surgeons during operations by maintaining sterile environments and managing surgical instruments.",
-    "overview": [
-      "The Diploma in Surgical Technology prepares students to assist surgeons in the operating room. Training includes sterilization techniques, surgical instrument handling, and operation theatre management.",        
-      "Students will gain in-depth knowledge of pre-operative, intra-operative, and post-operative procedures. The program also emphasizes patient safety and sterile practices, ensuring that graduates can play a critical role in successful surgical outcomes."
-    ],
-    "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology required)",
-    "career": "Surgical assistant, operation theatre technologist."
-  },
-  "dental-technology": {
-    "name": "Dental Technology",
-    "description":
-      "A specialized course focusing on dental procedures, oral healthcare, and supporting dentists in clinical environments.",
-    "overview": [
-      "Dental Technology equips students with the knowledge and skills to support dentists in both clinical and laboratory settings. The course covers oral anatomy, preventive dentistry, dental materials, and dental lab practices.",
-      "Students will gain practical experience in dental impressions, prosthetic preparation, and chairside assisting. This program is designed for those interested in contributing to oral healthcare and improving community dental health standards."
-    ],
-    "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology preferred)",
-    "career": "Dental assistant, dental lab technician."
-  },
-  "hepatology-technology": {
-    "name": "Hepatology Technology",
-    "description":
-      "Students learn to assist in the diagnosis and management of liver-related diseases, with training in lab testing and patient support.",
-    "overview": [
-      "Hepatology Technology is a specialized program focusing on the study, diagnosis, and management of liver diseases. Students learn about liver anatomy, common liver disorders, laboratory testing, and patient support systems.",
-      "This course trains healthcare technologists to assist hepatologists in clinical environments, perform diagnostic procedures, and manage liver health awareness programs, an essential field given the rising prevalence of liver conditions."
-    ],
-    "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology required)",
-    "career": "Lab assistant in hepatology units, healthcare support staff."
-  },
-  "cariology-technology": {
-    "name": "Cariology Technology",
-    "description":
-      "This program focuses on the study, diagnosis, and prevention of dental caries, blending dental science with modern techniques.",
-    "overview": [
-      "Cariology Technology focuses on the prevention, diagnosis, and management of dental caries (tooth decay). Students study oral microbiology, cariology techniques, preventive dentistry, and restorative procedures.",
-      "The program is designed to train professionals who can work closely with dentists, promoting better oral hygiene and supporting treatment procedures aimed at preventing cavities and preserving natural teeth."
-    ],
-    "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology required)",
-    "career": "Dental assistant, cariology specialist support staff."
-  },
-  "anesthesiology-technology": {
-    "name": "Anesthesiology Technology",
-    "description":
-      "Students are trained to assist anesthesiologists in preparing and administering anesthesia during surgeries and medical procedures.",
-    "overview": [
-      "Anesthesiology Technology trains students to assist anesthesiologists and surgeons during medical and surgical procedures. The curriculum covers anesthesia administration techniques, monitoring patient vitals, and managing anesthesia equipment.",
-      "Graduates will be capable of preparing operating theatres, assisting with anesthesia delivery, and ensuring patient safety throughout surgeries, making them vital members of surgical and emergency care teams."
-    ],
-    "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology required)",
-    "career": "Anesthesia technician, OT support staff."
+  
+  "banner": {
+    "title": "Our Paramedical Courses",
+    "description": "Explore accredited programs designed to equip you with the skills and knowledge needed for a successful career in healthcare."
   }
 }

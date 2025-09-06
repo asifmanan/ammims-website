@@ -1,7 +1,7 @@
 // src/app/courses/[slug]/page.tsx
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import coursesData from "@/assets/data/courses/coursesData"
+import {offeredCourses} from "@/assets/data/courses/coursesData"
 
 export default async function CourseDetailPage({
   params,
@@ -9,7 +9,7 @@ export default async function CourseDetailPage({
   params: Promise<{ slug: string }>;
 }) {  
   const {slug} = await params;
-  const course = coursesData[slug];
+  const course = offeredCourses[slug];
 
   if (!course) {
     notFound();

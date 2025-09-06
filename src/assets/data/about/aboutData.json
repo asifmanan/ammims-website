@@ -1,0 +1,61 @@
+{
+  "preview": {
+    "title":"About Our Institute",
+    "description": "At Abdul Manan Memorial Institute of Medical Sciences, we are dedicated to shaping the next generation of healthcare professionals. Our paramedical programs combine academic excellence with practical training, empowering students to make a real difference in the world of healthcare."
+  },
+
+  "whyChoosePreview" : {
+    "title": "Why Study at AMMIMS?"
+  },
+
+  "banner": {
+    "title": "About Us",
+    "description":"Abdul Manan Memorial Institute of Medical Sciences (AMMIMS) is dedicated to shaping the next generation of healthcare professionals through excellence in paramedical education."
+  },
+  
+  "mission": {
+    "title":"Our Mission",
+    "description":"Our mission is to provide high-quality paramedical education, integrating academic excellence with practical skills. We aim to empower students to serve communities with competence, compassion, and integrity."
+  },
+
+  "vision": {
+    "title": "Our Vision",
+    "description": "Our vision is to become a leading institution recognized for producing skilled healthcare professionals who contribute to improving healthcare standards across Pakistan and beyond."
+  },
+
+  "whyChoose": {
+    "title": "Why Choose AMMIMS?",
+    "description": "At AMMIMS, we combine academic knowledge, modern facilities, and practical experience to prepare students for real-world healthcare challenges.",
+    "cards": [
+      {
+        "title": "Experienced Faculty",
+        "description": "Learn from highly qualified professionals with years of practical experience."
+      },
+
+      {
+        "title": "Hands-on Training",
+        "description": "Practical labs and clinical exposure ensure students gain real-world skills."
+      },
+
+      {
+        "title": "Accredited Programs",
+        "description": "All courses are designed to meet healthcare industry standards."
+      },
+
+      {
+        "title":"Modern Facilities",
+        "description": "State-of-the-art labs and classrooms enhance the learning experience."
+      },
+
+      {
+        "title":"Career Guidance",
+        "description": "We provide support to help students build successful careers in healthcare."
+      },
+
+      {
+        "title": "Community Focused",
+        "description":"Our graduates are committed to serving local and global communities."
+      }
+    ]
+  }
+}

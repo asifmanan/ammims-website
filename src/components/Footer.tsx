@@ -1,5 +1,5 @@
 import Link from "next/link";
-import contactData from "@/assets/data/contact/contactData";
+import {contactInfo} from "@/assets/data/contact/contactData";
 
 export default function Footer() {
   return (
@@ -53,9 +53,9 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-3">Contact Us</h4>
           <ul className="space-y-2 text-sm text-snow/80">
-            <li>📍 {contactData.address}</li>
-            <li>📞 {contactData.phone}</li>
-            <li>✉️ {contactData.email}</li>
+            <li>📍 {contactInfo.address}</li>
+            <li>📞 {contactInfo.phone}</li>
+            <li>✉️ {contactInfo.email}</li>
           </ul>
         </div>
       </div>

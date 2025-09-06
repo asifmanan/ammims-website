@@ -1,0 +1,38 @@
+{
+  "title": "Frequently Asked Questions",
+  "description": "Have questions about admissions? We’ve answered the most common ones below.",
+  "questions": [
+    {
+      "question":"What are the eligibility requirements for admission?",
+      "answer": "Most programs require Matriculation with Science (Biology preferred). Some specialized courses may also consider Physics and Chemistry."
+    },
+    {
+      "question":"How do I apply for admission?",
+      "answer": "You can apply directly through our online application form or visit the Admissions Office on campus. Required documents must be submitted before the deadline."
+    },
+    {
+      "question":"What documents are needed for admission?",
+      "answer": "Applicants typically need: Matric/Intermediate certificates & transcripts, copy of CNIC / B-Form, recent passport-size photographs, Any other documents specified by the program or required by the admission office."
+    },
+    {
+      "question": "Is there an entrance test or interview?",
+      "answer": "Yes. Depending on the program, candidates may be required to appear for an entrance test and/or interview to assess eligibility."
+    },
+    {
+      "question":"What is the duration of the courses?",
+      "answer":"Most paramedical diploma programs are 2 years in duration. Some may vary depending on specialization."
+    },
+    {
+      "question":"Are scholarships or financial aid available?",
+      "answer":"Yes. We offer merit-based scholarships and limited Need-based financial assistance. Details are available at the Admissions Office."
+    },
+    {
+      "question":"When does the academic session begin?",
+      "answer":"New sessions typically begin in September each year. Exact dates are announced on our website and notice boards."
+    },
+    {
+      "question":"What career opportunities will I have after completing a course?",
+      "answer":"Graduates can work in hospitals, clinics, diagnostic centers, and laboratories. Many also pursue higher education or specialized certifications."
+    }
+  ]
+}
