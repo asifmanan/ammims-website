@@ -1,4 +1,4 @@
-// src/types/contact.ts
+// src/types/Contact.ts
 import { DefaultSectionData, DefaultPreviewData } from "@/types/SectionData";
 
 interface messageDetail {
