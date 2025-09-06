@@ -29,29 +29,24 @@ export default function AdmissionsPage() {
             Admission Information
           </h2>
 
-          {/* Eligibility */}
+          {/* Eligibility Criteria */}
           <Card className="mb-10">
             <CardHeader>
               <CardTitle className="text-2xl text-brand-primary">
                 Eligibility Criteria
               </CardTitle>
             </CardHeader>
-            <CardContent>
-              <ul className="list-disc pl-6 text-jet/80 space-y-2">
-                <li>
-                  <b>Matriculation with Science</b> (Biology required, Physics
-                  preferred for Radiology).
-                </li>
-                <li>
-                  Minimum <b>45% marks</b> in Science subjects.
-                </li>
-                <li>
-                  <b>Age limit:</b> 15–35 years.
-                </li>
-                <li>Admission is based on merit and seat availability.</li>
-              </ul>
+            <CardContent className="text-jet/80">
+              <div>
+                <ul className="list-disc pl-6 mt-2 space-y-2">
+                  <li>SSC with Biology with at least <b>50% marks</b>.</li>
+                  <li>Age limit: <b>up to 30 years</b>.</li>
+                  <li>Admission is based on merit and seat availability.</li>
+                </ul>
+              </div>
             </CardContent>
           </Card>
+
 
           {/* Admission Process */}
           <Card className="mb-10">
@@ -115,7 +110,7 @@ export default function AdmissionsPage() {
 
       
 
-      {/* Contact CTA after FAQ */}
+      {/* Contact CTA */}
       <section className="py-8 text-center">
         <p className="text-jet/80">
           Still have questions?{" "}
