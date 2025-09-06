@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { contactData, contactInfo } from "@/assets/data/contact/contactData";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function ContactPage() {
   const [form, setForm] = useState({
@@ -95,9 +96,29 @@ export default function ContactPage() {
               {contactData.contactDetail.description}
             </p>
             <ul className="space-y-3 text-jet/80">
-              <li><strong>📍 Address:</strong> {contactInfo.address}</li>
-              <li><strong>📞 Phone:</strong> {contactInfo.phone}</li>
-              <li><strong>✉️ Email:</strong> {contactInfo.email}</li>
+              <li className="flex gap-2 items-start">
+                <MapPin className="w-5 h-5 text-brand-primary flex-shrink-0" />
+                <span className="font-mono"><strong>Address: </strong>{contactInfo.address}</span>
+              </li>
+              <li className="flex gap-2 items-start">
+                <Phone className="w-5 h-5 text-brand-primary flex-shrink-0" />
+                <div className="flex gap-3 items-start">
+                  <div className="flex-shrink-0">
+                    <strong>Phone: </strong>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    {contactInfo.phone.map((phone) => (
+                      <span key={phone.number}>
+                        {phone.label}: {phone.number}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </li>
+              <li className="flex gap-2 items-start">
+                <Mail className="w-5 h-5 text-brand-primary flex-shrink-0" />
+                <span><strong>Email: </strong> {contactInfo.email}</span>
+              </li>
             </ul>
 
             {/* Map Placeholder */}

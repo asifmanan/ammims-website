@@ -14,8 +14,13 @@ export interface ContactData {
   contactDetail: DefaultSectionData;
 }
 
+interface Phone {
+  label: string;
+  number: string;
+}
+
 export interface ContactInfo {
   address: string;
-  phone: string;
+  phone: Phone[];
   email: string;
 }

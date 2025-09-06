@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ContactPreviewData } from "@/types/Home";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 interface ContactPreviewProps {
   data: ContactPreviewData;
@@ -17,9 +18,24 @@ export default function ContactPreview({data}:ContactPreviewProps) {
         </p>
 
         <div className="mt-6 space-y-2 text-jet/80">
-          <p>📍 {data.contactInfo?.address}</p>
-          <p>📞 {data.contactInfo?.phone}</p>
-          <p>✉️ {data.contactInfo?.email}</p>
+          <div className="flex gap-2 items-center justify-center">
+            <MapPin className="w-5 h-5 text-brand-primary flex-shrink-0" />
+            <p>{data.contactInfo?.address}</p>
+          </div>
+          <div className="flex items-center justify-center gap-2">
+            <Phone className="w-5 h-5 text-brand-primary flex-shrink-0" />
+            <div className="flex flex-col gap-1">
+              {data.contactInfo?.phone.map((p) => (
+                <span key={p.number}>
+                  {p.label}: {p.number}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="flex items-center justify-center gap-2">
+            <Mail className="w-5 h-5 text-brand-primary flex-shrink-0" />
+            <p>{data.contactInfo?.email}</p>
+          </div>
         </div>
 
         <div className="mt-8">

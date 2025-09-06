@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {contactInfo} from "@/assets/data/contact/contactData";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -53,9 +54,26 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-3">Contact Us</h4>
           <ul className="space-y-2 text-sm text-snow/80">
-            <li>📍 {contactInfo.address}</li>
-            <li>📞 {contactInfo.phone}</li>
-            <li>✉️ {contactInfo.email}</li>
+            <li className="flex gap-2 items-start">
+              <MapPin className="w-5 h-5 text-dazzle-rose flex-shrink-0" />
+              <span>{contactInfo.address}</span>
+            </li>
+            <li className="flex gap-2 items-start">
+              <Phone className="w-5 h-5 text-dazzle-rose flex-shrink-0" />
+              <div className="flex flex-col gap-1">
+                {contactInfo.phone.map((phone) => (
+              <span key={phone.number}>
+                {phone.label}: {phone.number}
+              </span>
+            ))}
+
+              </div>
+              
+            </li>
+            <li className="flex gap-2 items-start">
+              <Mail className="w-5 h-5 text-dazzle-rose flex-shrink-0" />
+              <span>{contactInfo.email}</span>
+            </li>
           </ul>
         </div>
       </div>
