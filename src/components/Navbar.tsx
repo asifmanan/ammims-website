@@ -49,21 +49,27 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Dropdown */}
+      {/* Mobile Fullscreen Menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-snow shadow-md">
-          <div className="px-4 pt-2 pb-3 space-y-2">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="block text-foreground hover:text-brand-primary transition"
-                onClick={() => setMobileOpen(false)}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </div>
+        <div className="fixed inset-0 bg-brand-primary z-40 flex flex-col items-center justify-center space-y-8">
+          {/* Close button in top-right */}
+          <button
+            onClick={() => setMobileOpen(false)}
+            className="absolute top-4 right-4 text-snow hover:text-snow/80"
+          >
+            <X size={32} />
+          </button>
+
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-snow text-2xl font-semibold hover:text-snow/80 transition"
+              onClick={() => setMobileOpen(false)}
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
       )}
     </nav>
