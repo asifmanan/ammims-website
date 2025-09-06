@@ -9,7 +9,7 @@
       "The Diploma in Health Technology provides students with a broad-based foundation in health sciences. Students will be introduced to essential subjects such as anatomy, physiology, microbiology, and community health. The course emphasizes both theoretical knowledge and practical training, ensuring that graduates are capable of assisting medical professionals in hospitals, clinics, and laboratories.",
       "By the end of the program, students will have gained hands-on experience in basic medical procedures and health management systems, preparing them for further specialization or immediate employment in healthcare settings."
     ],
-    "eligibility": "Matriculation with Science (Biology preferred)",
+    "eligibility": "Matriculation with Science (minimum 50% marks, Biology required)",
     "career":
       "Healthcare assistant, medical lab support, and entry-level health technician roles."
   },
@@ -23,7 +23,7 @@
       "The course emphasizes radiation safety, anatomy, image interpretation basics, and patient communication. Graduates are trained to work alongside radiologists and physicians in hospitals, diagnostic centers, and imaging labs."
     ],
     "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology & Physics preferred)",
+    "eligibility": "Matriculation with Science (minimum 50% marks, Biology required)",
     "career":
       "Radiology technician, imaging assistant, hospital radiology department support."
   },
@@ -37,7 +37,7 @@
       "Students will gain in-depth knowledge of pre-operative, intra-operative, and post-operative procedures. The program also emphasizes patient safety and sterile practices, ensuring that graduates can play a critical role in successful surgical outcomes."
     ],
     "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology required)",
+    "eligibility": "Matriculation with Science (minimum 50% marks, Biology required)",
     "career": "Surgical assistant, operation theatre technologist."
   },
   "dental-technology": {
@@ -50,24 +50,24 @@
       "Students will gain practical experience in dental impressions, prosthetic preparation, and chairside assisting. This program is designed for those interested in contributing to oral healthcare and improving community dental health standards."
     ],
     "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology preferred)",
+    "eligibility": "Matriculation with Science (minimum 50% marks, Biology required)",
     "career": "Dental assistant, dental lab technician."
   },
-  "hepatology-technology": {
-    "name": "Hepatology Technology",
-    "slug": "hepatology-technology",
-    "description": "Students learn to assist in the diagnosis and management of liver-related diseases, with training in lab testing and patient support.",
-    "highlight": "Specialize in liver health, diagnostics, and treatment support for hepatology-focused care.",
+  "pathology-technology": {
+    "name": "Pathology Technology",
+    "slug": "pathology-technology",
+    "description": "This program trains students in laboratory diagnostics, covering hematology, microbiology, biochemistry, and clinical pathology.",
+    "highlight": "Gain hands-on expertise in laboratory testing, sample analysis, and diagnostic procedures.",
     "overview": [
-      "Hepatology Technology is a specialized program focusing on the study, diagnosis, and management of liver diseases. Students learn about liver anatomy, common liver disorders, laboratory testing, and patient support systems.",
-      "This course trains healthcare technologists to assist hepatologists in clinical environments, perform diagnostic procedures, and manage liver health awareness programs, an essential field given the rising prevalence of liver conditions."
+      "Pathology Technology focuses on understanding disease processes through laboratory testing and analysis. Students are trained in clinical biochemistry, microbiology, hematology, and histopathology.",
+      "The course emphasizes practical laboratory skills, quality control, and diagnostic accuracy, preparing graduates to play a vital role in patient care by supporting physicians with precise test results."
     ],
     "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology required)",
-    "career": "Lab assistant in hepatology units, healthcare support staff."
+    "eligibility": "Matriculation with Science (minimum 50% marks, Biology required)",
+    "career": "Laboratory technologist, pathology lab assistant, diagnostic lab staff."
   },
-  "cariology-technology": {
-    "name": "Cariology Technology",
+  "cardiology-technology": {
+    "name": "Cardiology Technology",
     "slug": "cardiology-technology",
     "description": "This program focuses on the study, diagnosis, and prevention of dental caries, blending dental science with modern techniques.",
     "highlight": "Develop skills in cardiac care, ECG, echocardiography, and cardiovascular diagnostics.",
@@ -76,7 +76,7 @@
       "The program is designed to train professionals who can work closely with dentists, promoting better oral hygiene and supporting treatment procedures aimed at preventing cavities and preserving natural teeth."
     ],
     "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology required)",
+    "eligibility": "Matriculation with Science (minimum 50% marks, Biology required)",
     "career": "Dental assistant, cariology specialist support staff."
   },
   "anesthesiology-technology": {
@@ -89,7 +89,7 @@
       "Graduates will be capable of preparing operating theatres, assisting with anesthesia delivery, and ensuring patient safety throughout surgeries, making them vital members of surgical and emergency care teams."
     ],
     "duration": "2 Years",
-    "eligibility": "Matriculation with Science (Biology required)",
+    "eligibility": "Matriculation with Science (minimum 50% marks, Biology required)",
     "career": "Anesthesia technician, OT support staff."
   }
 }
